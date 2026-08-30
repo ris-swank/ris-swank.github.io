@@ -95,14 +95,7 @@ h1.hero-name{
   margin: 0 0 40px;
 }
 .hero-summary{
-  display: grid;
-  grid-template-columns: 120px 1fr;
-  gap: 36px;
-  align-items: start;
   max-width: 640px;
-}
-.hero-graphic{
-  flex-shrink: 0;
 }
 .hero-summary p{
   font-size: 1.1rem;
@@ -115,8 +108,6 @@ h1.hero-name{
   .wrap{ padding: 0 24px; }
   nav{ gap: 18px; font-size: 0.86rem; }
   .hero{ padding: 64px 0 56px; }
-  .hero-summary{ grid-template-columns: 1fr; gap: 20px; }
-  .hero-graphic{ width: 88px; }
 }
 
 /* ---------- PAGE HEADING (subpages) ---------- */
