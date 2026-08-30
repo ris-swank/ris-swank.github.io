@@ -221,6 +221,13 @@ h2{
   font-size: 1.05rem;
   max-width: 640px;
 }
+.purgatory-gif{
+  display: block;
+  max-width: 360px;
+  width: 100%;
+  height: auto;
+  margin-top: 32px;
+}
 .page a:not(.wordmark a){
   color: var(--ink);
   text-decoration: none;
